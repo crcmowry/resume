@@ -18,8 +18,7 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec}
 \usepackage{xltxtra,xunicode}
-% Fills page more. Remove when page gets full
-\usepackage[onehalfspacing]{setspace}
+\usepackage[onehalfspacing]{setspace} % Fills page more. Remove when page gets full
 
 % Color definitions
 \definecolor{date}{HTML}{666666} 
