@@ -74,7 +74,7 @@ LinkedIn:// \href{https://www.linkedin.com/in/crcmowry}{\custombold{crcmowry}} |
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.40\textwidth} 
+\begin{minipage}[t]{0.39\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -84,7 +84,8 @@ LinkedIn:// \href{https://www.linkedin.com/in/crcmowry}{\custombold{crcmowry}} |
 
 \subsection{Carnegie Mellon University}
 \descript{BS in Computer Science}
-\location{Expected May 2021 | Pittsburgh, PA \\ Cum. GPA: 4.0 \\ Major GPA: 4.0}
+\location{Expected May 2021 | Pittsburgh, PA \\ Cum. GPA: 3.73 %\\ Major GPA: 4.0}
+}
 \sectionsep
 
 
@@ -102,18 +103,18 @@ LinkedIn:// \href{https://www.linkedin.com/in/crcmowry}{\custombold{crcmowry}} |
 
 \section{Coursework}
 \custombold{(Asterisk denotes course in progress)} \\
-Introduction to Computer Systems (15-213)* \\
-Par and Seq Data Structures and Algs (15-210)* \\
-Multidimensional Calculus (21-268)* \\
-Hype for Types (98-317)* \\
+Algorithm Design and Analysis (15-451) \\
+Foundations of PL (15-312) \\
+Probability and Computing (15-259)
+
+Intro to Computer Systems (15-213) \\
+Data Structures and Algos (15-210) \\
+Multidimensional Calculus (21-268) \\
+Hype for Types (98-317) \\
 
 Great Theoretical Ideas in CS (15-251) \\
-More Great Theoretical Ideas in CS (15-252) \\
-Principles of Functional Programming (15-150) \\
-
-Principles of Imperative Computation (15-122) \\
-Matrices and Linear Transformations (21-241) \\
-Mathematical Foundations for CS (15-151)
+More Great Ideas in TCS (15-252) \\
+Intro to Functional Programming (15-150) \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,11 +126,12 @@ Mathematical Foundations for CS (15-151)
 \vspace{\topsep}
 C/C++ \(\bullet\)
 Python \(\bullet\)
-SML \(\bullet\)
-HTML \& CSS
-
-Javascript/ES 6 \(\bullet\)
+OCaml \(\bullet\)
+C\# \(\bullet\)
 Java
+
+Javascript/Typescript \(\bullet\)
+HTML \& CSS
 
 \sectionsep
 
@@ -137,13 +139,15 @@ Java
 \vspace{\topsep}
 Play \(\bullet\)
 Docker \(\bullet\)
+Flask
+
 React Native \(\bullet\)
+Git \(\bullet\)
 PostgreSQL
 
 Bootstrap \(\bullet\)
 Bash \(\bullet\)
 \LaTeX \(\bullet\)
-Git \(\bullet\)
 Vim
 \sectionsep
 
@@ -155,7 +159,7 @@ Vim
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.59\textwidth} 
+\begin{minipage}[t]{0.60\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -163,41 +167,38 @@ Vim
 
 \section{Experience}
 
-\runsubsection{Software Engineering Institute}
-\descript{| Full Stack Intern }
+\runsubsection{Microsoft}
+\descript{| Software Engineer Intern}
 \location{May 2018 – Aug 2018 | Pittsburgh, PA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+    \item Implemented feature allowing IT admins to prevent users from removing
+        or wiping corporate managed devices.
+\end{tightemize}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Carnegie Mellon University}
+\descript{| 15-210 Teaching Assistant}
+\location{May 2018 – Aug 2018 | Pittsburgh, PA}
+\begin{tightemize}
+    \item Lead recitations, held office hours, helped create new labs, and graded
+        assignments and exams for Par and Seq Data Structures and Algos.
+\end{tightemize}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Software Engineering Institute}
+\descript{| Developer Intern }
+\location{May 2018 – Aug 2018 | Pittsburgh, PA}
 \begin{tightemize}
     \item Built from scratch a Java Play Framework web application to easily configure and monitor the security state and data of IoT devices.
 \end{tightemize}
 
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{Elliance}
-\descript{| Web and Mobile Development Intern }
+\descript{| Developer Intern }
 \location{June 2017 – Aug 2017 | Pittsburgh, PA}
 \begin{tightemize}
     \item Developed \href{http://www.pittsburgh.net/}{Pittsburgh.net} mobile application for using React Native to help the user browse and save local Pittsburgh events.
-\end{tightemize}
-\vspace{3 pt}
-\location{June 2016 – Aug 2016 | Pittsburgh, PA}
-\begin{tightemize}
-    \item Integrated Instagram APIs into \href{http://www.pittsburgh.net/}{Pittsburgh.net} site to promote interactivity.
-    \item Created an event data API to allow implementation of mobile application.
-\end{tightemize}
-
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Research}
-\runsubsection{Personal Robotics Lab}
-\descript{| High School Research Intern}
-\location{Sep 2016 – Mar 2017 | Carnegie Mellon University, Pittsburgh, PA}
-%\vspace{\topsep}
-\begin{tightemize}
-    \item Created an analytic metric for calculating joint space that accounts for the different energy and distance costs of the joints to better optimize practical aspects of moving a robotic arm.
 \end{tightemize}
 
 \sectionsep
@@ -207,22 +208,37 @@ Vim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Activities} 
-\runsubsection{Scotty Labs}
-\descript{| Directory of Technology}
+\runsubsection{ScottyLabs}
+\descript{| Former Directory of Technology}
 \location{Nov 2017 – Present}
 \begin{tightemize}
-    \item Manage club's technical direction and oversee all technical projects.
-    \item Assisted in planning TartanHacks, Carnegie Mellon's largest hackathon of over 300 students, which is held by ScottyLabs.
+    \item Managed club's technical direction and oversee all technical projects.
+    \item Gave a talk on Git covering basic usage and then taking an extensive
+        look at branching.
+    \item Led a workshop on back-end development at WebDevWeekend, an
+        educational event introducing students to web dev fundamentals.
+    \item Planned TartanHacks, Carnegie Mellon's largest hackathon of over 300 students, which is held by ScottyLabs.
+\end{tightemize}
+
+\sectionsep
+
+\runsubsection{Delta Tau Delta}
+\descript{| Directory of Academic Affairs}
+\location{Jan 2018 – Present}
+\begin{tightemize}
+    \item Meet with struggling members to help them achieve academic success.
 \end{tightemize}
 
 \sectionsep
 
 \runsubsection{AC Mellon Club Soccer}
 \descript{| Goalkeeper}
-\location{Sep 2017 – Present}
+\location{Sep 2017 – December 2018}
 \begin{tightemize}
     \item Play goalkeeper on Carnegie Mellon's nationally competitive club soccer team.
-    \item Competed in regional tournament against the best collegiate club teams in the North-East region (Oct 2017).
+    \item Competed in national tournament against the best collegiate club teams
+        in the U.S. (Dec 2018).
+    \item Competed in regional tournament (Oct 2017).
 \end{tightemize}
 
 \sectionsep
